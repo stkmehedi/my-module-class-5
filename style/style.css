@@ -5,6 +5,10 @@ body {
 
 nav {
     display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 .text-praimary{
@@ -19,6 +23,7 @@ nav > ul {
 nav li {
     list-style: none;
     margin: 51px;
+    align-items: center;
 }
 
 nav a {
@@ -37,12 +42,25 @@ nav a {
 }
 
 .nav-title {
-    color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
 }
 
-nav {
+/* nav {
     justify-content: space-between;
     align-items: center;
+} */
+
+.header {
+    background-color: #FFF8F3;;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile {
+    width: 50px;
 }
